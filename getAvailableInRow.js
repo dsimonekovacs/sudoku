@@ -8,7 +8,7 @@ function getAvailableInRow(puzzle, rowIndex) {
     for (let i = 0; i < 9; i++) {
         available.delete(row[i]);
     }
-    return Array.from(available);
+    return available;
 }
 
 module.exports = getAvailableInRow

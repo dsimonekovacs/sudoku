@@ -8,7 +8,7 @@ function getAvailableInColumn(puzzle, columnIndex) {
     for (let i = 0; i < 9; i++) {
         available.delete(column[i]);  
     }
-    return Array.from(available);
+    return available;
 }
 
 module.exports = getAvailableInColumn;
