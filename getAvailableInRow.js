@@ -1,0 +1,5 @@
+function getAvailableInRow(puzzle, rowIndex) {
+    
+
+
+}
