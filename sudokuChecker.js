@@ -101,4 +101,3 @@ function comparePuzzles (puzzle1, puzzle2) {
     }
     return true;
 }
-module.exports = getColumn;
