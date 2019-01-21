@@ -1,6 +1,6 @@
-chooseRandomly = require('./chooseRandomly');
-getAvailable = require('./getAvailable');
-getEmptyPuzzle = require('./getEmptyPuzzle');
+const chooseRandomly = require('./chooseRandomly');
+const getAvailable = require('./getAvailable');
+const getEmptyPuzzle = require('./getEmptyPuzzle');
 
 function generatePuzzle() {
     let puzzle = getEmptyPuzzle(); // emptyPuzzle returns a 9x9 grid of nulls
