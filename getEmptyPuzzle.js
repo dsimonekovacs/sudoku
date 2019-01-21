@@ -6,3 +6,5 @@ function getEmptyPuzzle () {
     }
     return puzzle;
 }
+
+module.exports = getEmptyPuzzle
