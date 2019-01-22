@@ -1,3 +1,4 @@
 const generatePuzzle = require('./generatePuzzle')
+const prettyPrint = require('./prettyPrint')
 
-console.log(generatePuzzle())
+console.log(prettyPrint(generatePuzzle()))
