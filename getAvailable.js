@@ -12,6 +12,6 @@ function getAvailable(puzzle, rowIndex, columnIndex) {
     available = intersection(available, column);
     available = intersection(available, grid);
 
-    return available;
+    return Array.from(available);
 }
 module.exports = getAvailable;
