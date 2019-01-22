@@ -1,3 +1,5 @@
+const getRow = require('./getRow')
+
 function getGrid (puzzle, x, y) {
     let subgrid = [];
     let startRow = x * 3;
@@ -6,7 +8,7 @@ function getGrid (puzzle, x, y) {
     // grabbing the rows for the subgrid
     let rows = [];
     for (let i = startRow; i < startRow + 3; i++) {
-        rows.push(getRow(sudokuGrid, i));
+        rows.push(getRow(puzzle, i));
     }
 
     for (let i = 0; i < 3; i++) {

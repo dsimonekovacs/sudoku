@@ -1,8 +1,10 @@
+const getRow = require('./getRow')
+
 function getColumn (puzzle, columnIndex) {
     let columnNums = [];
 
-    for (let i = 0; i < sudokuGrid.length; i++) {
-        let row = getRow(sudokuGrid, i);
+    for (let i = 0; i < puzzle.length; i++) {
+        let row = getRow(puzzle, i);
         let column = row[columnIndex]
         columnNums.push(column);
     }

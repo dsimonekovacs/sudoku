@@ -1,3 +1,3 @@
 const generatePuzzle = require('./generatePuzzle')
 
-generatePuzzle()
+console.log(generatePuzzle())
