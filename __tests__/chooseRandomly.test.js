@@ -1,4 +1,4 @@
-const chooseRandomly = require('./chooseRandomly');
+const chooseRandomly = require('../chooseRandomly');
 
 
 test('chooseRandomly on list with one element returns element', () => {

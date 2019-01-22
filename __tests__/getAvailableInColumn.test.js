@@ -1,5 +1,5 @@
-const getEmptyPuzzle = require("./getEmptyPuzzle");
-const getAvailableInColumn = require('./getAvailableInColumn');
+const getEmptyPuzzle = require("../getEmptyPuzzle");
+const getAvailableInColumn = require('../getAvailableInColumn');
 
 
 test('on empty grid returns [1, 9]', () => {

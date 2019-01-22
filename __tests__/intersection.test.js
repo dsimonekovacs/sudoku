@@ -1,4 +1,4 @@
-const intersection = require('./intersection')
+const intersection = require('../intersection')
 
 
 test('intersection of two sets', () => {

@@ -1,4 +1,4 @@
-const getEmptyPuzzle = require('./getEmptyPuzzle');
+const getEmptyPuzzle = require('../getEmptyPuzzle');
 
 
 test('getEmptyPuzzle', () => {
